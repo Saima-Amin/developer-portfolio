@@ -126,12 +126,65 @@ main {
     /* padding-left: 20px; */
 }
 
-.info-title {
+.about-me .info-title {
     color: #757575;
     font-size: 20px;
 }
 
 .info.desc {
+    font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+.what-i-do {
+    margin-top: 130px;
+}
+
+.section-title {
+    /* margin-top: 130px; */
+    /* font-weight: 700; */
+    /* font-size: 35px; */
+    /* line-height: 48px; */
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Dark 01 */
+
+    color: #181818
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin: bottom 20px;
+    
+}
+
+.skill-desc {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 28px; */
+    /* or 175% */
+
+
+    /* Dark 03 */
+
+    color: #757575;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
 }
